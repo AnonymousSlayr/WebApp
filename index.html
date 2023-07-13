@@ -1,41 +1,43 @@
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="main.css" />
+
     <title>Layout</title>
-</head>
-
-<body>
+  </head>
+  <body>
     <div class="all">
-        <div class="side">
-            <div class="advert"></div>
-            <div class="advert"></div>
-            <div class="advert"></div>
+      <div class="side">
+        <div class="advert"></div>
+        <div class="advert"></div>
+        <div class="advert"></div>
+      </div>
+      <div id="back1"></div>
+      <div class="body">
+        <div id="txt1">
+          <marquee behavior="line" direction="left">
+            <h2>Happy Independence Day</h2>
+          </marquee>
+          <p><label id="name1"></label> Wishes you</p>
         </div>
-        <div id="back1"></div>
-        <div class="body">
-            <div id="txt1">
-                <marquee behavior="line" direction="left">
-                <h2>Happy Independence Day</h2>
-                </marquee>
-                <p><label id="name1"></label> Wishes you</p>
-            </div>
-            <div class="foot">
-                <input type="text" placeholder="Enter your name nub" id="name2"/>
-                <button type="submit" onclick="print()">Submit</button>
-            </div>
+        <div class="foot">
+          <input type="text" placeholder="Enter your name nub" id="name2" />
+          <button type="submit" onclick="print()">Submit</button>
         </div>
-        <div class="side">
-            <div class="advert"></div>
-            <div class="advert"></div>
-            <div class="advert"></div>
-        </div>
+      </div>
+      <div class="side">
+        <div class="advert"></div>
+        <div class="advert"></div>
+        <div class="advert"></div>
+      </div>
     </div>
 
-    <script src="main.js"></script>
-</body>
 
+    <!-- script -->
+    <script src="main.js"></script>
+  </body>
 </html>
